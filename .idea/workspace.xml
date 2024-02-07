@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/abstraction/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/encapsulation/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/InheritanceProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/animals/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/InnerClassProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/MethodLocalInnerClassProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/PolymorphismProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/readme.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2c2WzAKidGsdbhDOTVKI7TtxcVA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/nested_classes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\inner_classes" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\inner_classes\method_local_inner_classes" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\inner_classes\inner_classes" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\inner_classes\anonymous_nested_classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MethodLocalInnerClassProcessor">
+    <configuration name="InheritanceProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.inheritance.example.InheritanceProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.inheritance.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.InnerClassProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodLocalInnerClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.method_local_inner_classes.MethodLocalInnerClassProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.method_local_inner_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolymorphismProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.polymorphism.PolymorphismProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MethodLocalInnerClassProcessor" />
+        <item itemvalue="Application.InnerClassProcessor" />
+        <item itemvalue="Application.PolymorphismProcessor" />
+        <item itemvalue="Application.InheritanceProcessor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="" />
+      <created>1707310414295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707310414295</updated>
+    </task>
+    <servers />
+  </component>
+</project>
