@@ -15,14 +15,20 @@ public class InheritanceProcessor {
      * работает конструктор matching super в каждом из этих классов.
      */
     public static void main(String[] args) {
-        Animal cat = new Cat(5, "Кошка Мурка");
-        Animal dog = new Dog(7, "Собачка Дружок");
-        Animal bird = new Bird(2, "Чык чирык");
+        Cat cat = new Cat(5, "Кошка Мурка");
+        Dog dog = new Dog(7, "Собачка Дружок");
+        Bird bird = new Bird(2, "Чык чирык");
 
+        /**
+         * Метод makeSound() переопределен в каждом из классов
+         */
         cat.makeSound();
         dog.makeSound();
         bird.makeSound();
 
+        /**
+         * Метод doSmth() реализован в классе родителе
+         */
         cat.doSmth(cat.getName());
         dog.doSmth(dog.getName());
         bird.doSmth(bird.getName());

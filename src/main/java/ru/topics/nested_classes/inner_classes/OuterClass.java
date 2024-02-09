@@ -18,7 +18,6 @@ public class OuterClass {
     /**
      * Ниже мы видим, что внутренний класс действительно имеет доступ ко всем переменным и методам внешнего класса
      */
-    @AllArgsConstructor
     public class InnerClass {
 
         public void callGetMethod() {

@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/MonitoringSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/step1/AnonymousStep1ClassProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/step1/ErrorMonitoringModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/step1/GeneralIndicatorsMonitoringModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/step1/SecurityModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/step2/AnonymousStep2ClassProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/static_nested_classes/InnerStaticClassProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/static_nested_classes/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/static_nested_classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/Running.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/impl/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/impl/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/impl/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/InnerClassProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/InnerClassProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/MethodLocalInnerClassProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/MethodLocalInnerClassProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/method_local_inner_classes/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/abstraction/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/abstraction/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/encapsulation/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/encapsulation/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/InheritanceProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/example/InheritanceProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/inheritance/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/OuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/PolymorphismProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/PolymorphismProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/polymorphism/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymousStep2ClassProcessor">
+  <component name="RunManager" selected="Application.PolymorphismProcessor">
     <configuration name="AnonymousStep1ClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.anonymous_inner_classes.step1.AnonymousStep1ClassProcessor" />
       <module name="java-questions" />
@@ -124,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodLocalInnerClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.method_local_inner_classes.MethodLocalInnerClassProcessor" />
+    <configuration name="PolymorphismProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.polymorphism.PolymorphismProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.method_local_inner_classes.*" />
+          <option name="PATTERN" value="ru.topics.polymorphism.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolymorphismProcessor" />
         <item itemvalue="Application.AnonymousStep2ClassProcessor" />
         <item itemvalue="Application.AnonymousStep1ClassProcessor" />
         <item itemvalue="Application.InnerStaticClassProcessor" />
         <item itemvalue="Application.InnerClassProcessor" />
-        <item itemvalue="Application.MethodLocalInnerClassProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707320712870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1707330386840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707330386840</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1707330475916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707330475916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
