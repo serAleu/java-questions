@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="Polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/ClassExtendsClassWithFinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/ClassIsTryingToExtendFinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/ClassWithFinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/FinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/FinalProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/instance_local_vars/InstanceLocalVarsProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/instance_local_vars/readme.txt" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/FunctionalInterfaceExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/FunctionalInterfaceExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/LambdaProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/MonitoringSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/MonitoringSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,48 +44,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/final_word"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/lambda"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\lambda" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\final_word" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\instance_local_vars" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\static_nested_classes" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\inner_classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalProcessor">
-    <configuration name="AnonymousStep1ClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.anonymous_inner_classes.step1.AnonymousStep1ClassProcessor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.anonymous_inner_classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymousStep2ClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.anonymous_inner_classes.step2.AnonymousStep2ClassProcessor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.anonymous_inner_classes.step2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LambdaProcessor">
     <configuration name="FinalProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.final_word.FinalProcessor" />
       <module name="java-questions" />
@@ -102,12 +74,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InnerClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.InnerClassProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InstanceLocalVarsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.instance_local_vars.InstanceLocalVarsProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.topics.instance_local_vars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.lambda.LambdaProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaProcessor" />
+        <item itemvalue="Application.InnerClassProcessor" />
         <item itemvalue="Application.FinalProcessor" />
         <item itemvalue="Application.InstanceLocalVarsProcessor" />
         <item itemvalue="Application.PolymorphismProcessor" />
-        <item itemvalue="Application.AnonymousStep2ClassProcessor" />
-        <item itemvalue="Application.AnonymousStep1ClassProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -179,12 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707490478211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final">
+      <option name="closed" value="true" />
+      <created>1707503109451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707503109451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
