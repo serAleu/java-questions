@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/FunctionalInterfaceExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/FunctionalInterfaceExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/LambdaProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/lambda/readme.txt" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/stream_api/StreamAPIProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/stream_api/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/MonitoringSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/nested_classes/inner_classes/anonymous_inner_classes/MonitoringSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,28 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/lambda"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/stream_api&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\stream_api" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\lambda" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\final_word" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\instance_local_vars" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\static_nested_classes" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaProcessor">
+  <component name="RunManager" selected="Application.StreamAPIProcessor">
     <configuration name="FinalProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.final_word.FinalProcessor" />
       <module name="java-questions" />
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolymorphismProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.polymorphism.PolymorphismProcessor" />
+    <configuration name="StreamAPIProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.stream_api.StreamAPIProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.polymorphism.impl.*" />
+          <option name="PATTERN" value="ru.topics.stream_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamAPIProcessor" />
         <item itemvalue="Application.LambdaProcessor" />
         <item itemvalue="Application.InnerClassProcessor" />
         <item itemvalue="Application.FinalProcessor" />
         <item itemvalue="Application.InstanceLocalVarsProcessor" />
-        <item itemvalue="Application.PolymorphismProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -185,13 +182,22 @@
       <option name="project" value="LOCAL" />
       <updated>1707503109451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lambda">
+      <option name="closed" value="true" />
+      <created>1707657818774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707657818774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Polymorphism" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
 </project>
