@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/stream_api/StreamAPIProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/stream_api/readme.txt" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="generics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +41,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/stream_api&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/generics&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\generics" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\stream_api" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\lambda" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\final_word" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\instance_local_vars" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\nested_classes\static_nested_classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamAPIProcessor">
-    <configuration name="FinalProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.final_word.FinalProcessor" />
+  <component name="RunManager" selected="Application.GenericWildCardsProcessor">
+    <configuration name="GenericInterfacesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.interfaces.GenericInterfacesProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.final_word.*" />
+          <option name="PATTERN" value="ru.topics.generics.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.nested_classes.inner_classes.InnerClassProcessor" />
+    <configuration name="GenericMethodsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.methods.GenericMethodsProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.nested_classes.inner_classes.*" />
+          <option name="PATTERN" value="ru.topics.generics.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceLocalVarsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.instance_local_vars.InstanceLocalVarsProcessor" />
+    <configuration name="GenericWildCardsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.wildcards.GenericWildCardsProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.instance_local_vars.*" />
+          <option name="PATTERN" value="ru.topics.generics.wildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.lambda.LambdaProcessor" />
+    <configuration name="GenericsClassesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.classes.GenericsClassesProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.topics.lambda.*" />
+          <option name="PATTERN" value="ru.topics.generics.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericWildCardsProcessor" />
+        <item itemvalue="Application.GenericMethodsProcessor" />
+        <item itemvalue="Application.GenericInterfacesProcessor" />
+        <item itemvalue="Application.GenericsClassesProcessor" />
         <item itemvalue="Application.StreamAPIProcessor" />
-        <item itemvalue="Application.LambdaProcessor" />
-        <item itemvalue="Application.InnerClassProcessor" />
-        <item itemvalue="Application.FinalProcessor" />
-        <item itemvalue="Application.InstanceLocalVarsProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707657818774</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stream">
+      <option name="closed" value="true" />
+      <created>1707678150930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707678150930</updated>
+    </task>
+    <task id="LOCAL-00008" summary="generics">
+      <option name="closed" value="true" />
+      <created>1707849365942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707849365942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="generics">
+      <option name="closed" value="true" />
+      <created>1707905241933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707905241933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +221,8 @@
     <MESSAGE value="Polymorphism" />
     <MESSAGE value="final" />
     <MESSAGE value="lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+    <MESSAGE value="stream" />
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
 </project>
