@@ -4,10 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="generics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/var/VarProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/var/readme.txt" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="var">
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/command/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/iterator/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/mediator/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/memento/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/observer/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/state/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/template_method/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/wildcard_capture/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstract_factory/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory_method/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/singleton/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/adapter/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/bridge/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/composite/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DecoratorExample1Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/DataSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/FileDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/facade/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/interaction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jdk/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jdk_jre_jvm_affilation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jre/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jvm/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +78,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/ru/topics/var"
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/petterns/behavioral/chain_of_responsibility"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\var" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\generics" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\stream_api" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\lambda" />
-      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\final_word" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\chain_of_responsibility" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\command" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\iterator" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\mediator" />
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\memento" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\jdk_jre_jvm" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VarProcessor">
+  <component name="RunManager" selected="Application.DecoratorExample1Processor">
+    <configuration name="DecoratorExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.decorator.example1.DecoratorExample1Processor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.structural.decorator.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericInterfacesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.generics.interfaces.GenericInterfacesProcessor" />
       <module name="java-questions" />
@@ -97,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsClassesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.classes.GenericsClassesProcessor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.topics.generics.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VarProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.topics.var.VarProcessor" />
       <module name="java-questions" />
@@ -125,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorExample1Processor" />
         <item itemvalue="Application.VarProcessor" />
         <item itemvalue="Application.GenericWildCardsProcessor" />
         <item itemvalue="Application.GenericMethodsProcessor" />
         <item itemvalue="Application.GenericInterfacesProcessor" />
-        <item itemvalue="Application.GenericsClassesProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707906193673</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="var">
+      <option name="closed" value="true" />
+      <created>1707911759061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707911759061</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +277,38 @@
     <MESSAGE value="lambda" />
     <MESSAGE value="stream" />
     <MESSAGE value="generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+    <MESSAGE value="var" />
+    <option name="LAST_COMMIT_MESSAGE" value="var" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/CompressionDecorator.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DecoratorExample1Processor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DecoratorExample1Processor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DecoratorExample1Processor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/CompressionDecorator.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

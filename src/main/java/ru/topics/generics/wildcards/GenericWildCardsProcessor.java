@@ -1,8 +1,6 @@
 package ru.topics.generics.wildcards;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Смотрим как работают дженерики с wildcards.
