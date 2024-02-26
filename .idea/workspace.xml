@@ -4,46 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="var">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/command/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/iterator/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/mediator/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/memento/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/observer/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/state/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/template_method/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/wildcard_capture/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/abstract_factory/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/factory_method/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/prototype/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/singleton/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/adapter/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/bridge/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/composite/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/DecoratorExample1Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/DataSourceDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/FileDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/decorator/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/facade/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/flyweight/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structural/proxy/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/interaction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jdk/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jdk_jre_jvm_affilation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jre/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/jvm/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/jdk_jre_jvm/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/ChainOfResponsibilityExample1Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/Middleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/RoleCheckMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/ThrottlingMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/UserExistsMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/ChainOfResponsibilityExample2Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/printers/AbstractMessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/printers/ConsoleMessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/printers/DbMessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/printers/FileMessagePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/generics/wildcards/GenericWildCardsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,15 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/java-questions/src/main/java/petterns/behavioral/chain_of_responsibility"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java-questions/src/main/java/petterns/behavioral/chain_of_responsibility&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\petterns\behavioral\chain_of_responsibility" />
@@ -93,40 +67,43 @@
       <recent name="C:\Users\admin\IdeaProjects\java-questions\src\main\java\ru\topics\jdk_jre_jvm" />
       <recent name="C:\Users\admin\IdeaProjects\java-questions" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="patterns.behavioral.chain_of_responsibility.example2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorExample1Processor">
+  <component name="RunManager" selected="Application.ChainOfResponsibilityExample2Processor">
+    <configuration name="ChainOfResponsibilityExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.chain_of_responsibility.example1.ChainOfResponsibilityExample1Processor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.chain_of_responsibility.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainOfResponsibilityExample2Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.chain_of_responsibility.example2.ChainOfResponsibilityExample2Processor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.chain_of_responsibility.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecoratorExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.structural.decorator.example1.DecoratorExample1Processor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.structural.decorator.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericInterfacesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.interfaces.GenericInterfacesProcessor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.topics.generics.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMethodsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.methods.GenericMethodsProcessor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.topics.generics.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsibilityExample2Processor" />
+        <item itemvalue="Application.ChainOfResponsibilityExample1Processor" />
         <item itemvalue="Application.DecoratorExample1Processor" />
         <item itemvalue="Application.VarProcessor" />
         <item itemvalue="Application.GenericWildCardsProcessor" />
-        <item itemvalue="Application.GenericMethodsProcessor" />
-        <item itemvalue="Application.GenericInterfacesProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707911759061</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="patterns">
+      <option name="closed" value="true" />
+      <created>1708090488285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708090488285</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,7 +263,8 @@
     <MESSAGE value="stream" />
     <MESSAGE value="generics" />
     <MESSAGE value="var" />
-    <option name="LAST_COMMIT_MESSAGE" value="var" />
+    <MESSAGE value="patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,6 +293,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/patterns/structural/decorator/example1/impl/ext/CompressionDecorator.java</url>
           <line>40</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/RoleCheckMiddleware.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/UserExistsMiddleware.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/ThrottlingMiddleware.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/middleware/Middleware.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/ChainOfResponsibilityExample1Processor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example1/ChainOfResponsibilityExample1Processor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
