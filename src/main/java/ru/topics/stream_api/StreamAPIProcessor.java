@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 public class StreamAPIProcessor {
 
     public static void main(String[] args) {
-        List<String> strings = Arrays.asList("one","two","three","four","five");
-        List<Integer> integers = Arrays.asList(5,5,51,2,3,4,5,5,5,5,5);
-        Map<Integer,String> map = Map.of(1, "1", 2, "2", 3, "3", 4, "5");
+        List<String> strings = Arrays.asList("one", "two", "three", "four", "five");
+        List<Integer> integers = Arrays.asList(5, 5, 51, 2, 3, 4, 5, 5, 5, 5, 5);
+        Map<Integer, String> map = Map.of(1, "1", 2, "2", 3, "3", 4, "5");
         String[] stringArray = new String[]{"Winter", "Spring", "Summer", "Autumn"};
 
         /**
@@ -37,7 +37,33 @@ public class StreamAPIProcessor {
         /**
          * Стрим из элементов
          */
-        Stream.of(1,2,3);
+        Stream.of(1, 2, 3);
+
+        /**
+         * Найти максимальное число в наборе
+         */
+
+        Stream.of(5, 3, 4, 55, 2)
+                .mapToInt(a -> a)
+                .max()
+                .getAsInt(); //55
+
+        /**
+         * Получить сумму всех чисел в наборе
+         */
+
+        Stream.of(5, 3, 4, 55, 2)
+                .mapToInt(a -> a)
+                .sum(); //69
+
+        /**
+         * Получить среднее значение всех чисел
+         */
+
+        Stream.of(5, 3, 4, 55, 2)
+                .mapToInt(a -> a)
+                .average()
+                .getAsDouble(); //13.8
 
         /**
          * Пример использования 2ух промежуточных операторов filter() и map() и терминального collect()

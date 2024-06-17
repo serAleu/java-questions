@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="chainOfResp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/BuilderExample1Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/builders/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/cars/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/components/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example1/director/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/BuilderExample2Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/HawaiianPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/PizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/SpicyPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/example2/Waiter.java" afterDir="false" />
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="builder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/ChainOfResponsibilityExample2Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/chain_of_responsibility/example2/ChainOfResponsibilityExample2Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creational/builder/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +60,7 @@
       <recent name="patterns.behavioral.chain_of_responsibility.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuilderExample2Processor">
-    <configuration name="BuilderExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.creational.builder.example1.BuilderExample1Processor" />
-      <module name="java-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.creational.builder.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PolymorphismProcessor">
     <configuration name="BuilderExample2Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.creational.builder.example2.BuilderExample2Processor" />
       <module name="java-questions" />
@@ -107,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainOfResponsibilityExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.chain_of_responsibility.example1.ChainOfResponsibilityExample1Processor" />
+    <configuration name="GenericWildCardsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.wildcards.GenericWildCardsProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.behavioral.chain_of_responsibility.example1.*" />
+          <option name="PATTERN" value="ru.topics.generics.wildcards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainOfResponsibilityExample2Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.chain_of_responsibility.example2.ChainOfResponsibilityExample2Processor" />
+    <configuration name="GenericsClassesProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.generics.classes.GenericsClassesProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.behavioral.chain_of_responsibility.example2.*" />
+          <option name="PATTERN" value="ru.topics.generics.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorExample1Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.structural.decorator.example1.DecoratorExample1Processor" />
+    <configuration name="LambdaProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.lambda.LambdaProcessor" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.structural.decorator.example1.*" />
+          <option name="PATTERN" value="ru.topics.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolymorphismProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.polymorphism.PolymorphismProcessor" />
+      <module name="java-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.topics.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolymorphismProcessor" />
+        <item itemvalue="Application.GenericsClassesProcessor" />
+        <item itemvalue="Application.GenericWildCardsProcessor" />
+        <item itemvalue="Application.LambdaProcessor" />
         <item itemvalue="Application.BuilderExample2Processor" />
-        <item itemvalue="Application.BuilderExample1Processor" />
-        <item itemvalue="Application.ChainOfResponsibilityExample2Processor" />
-        <item itemvalue="Application.ChainOfResponsibilityExample1Processor" />
-        <item itemvalue="Application.DecoratorExample1Processor" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708925087456</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="builder">
+      <option name="closed" value="true" />
+      <created>1708938545170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708938545170</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,7 +270,8 @@
     <MESSAGE value="var" />
     <MESSAGE value="patterns" />
     <MESSAGE value="chainOfResp" />
-    <option name="LAST_COMMIT_MESSAGE" value="chainOfResp" />
+    <MESSAGE value="builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
