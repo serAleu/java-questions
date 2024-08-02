@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="builder">
+    <list default="true" id="4f030d31-d97d-43cf-8cb6-deec7029d6ea" name="Changes" comment="streams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/topics/servlets/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/FinalClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/topics/final_word/FinalClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java-questions/src/main/java/petterns/behavioral/chain_of_responsibility&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/my-risk-service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,13 +67,13 @@
       <recent name="patterns.behavioral.chain_of_responsibility.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolymorphismProcessor">
-    <configuration name="BuilderExample2Processor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.creational.builder.example2.BuilderExample2Processor" />
+  <component name="RunManager" selected="Application.FinalClass">
+    <configuration name="FinalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.topics.final_word.FinalClass" />
       <module name="java-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.creational.builder.example2.*" />
+          <option name="PATTERN" value="ru.topics.final_word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +133,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.90" />
+          <option name="path" value="$USER_HOME$/Desktop/java/apache-tomcat-9.0.90" />
+          <option name="version" value="9.0.90.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FinalClass" />
+      <item itemvalue="Application.GenericWildCardsProcessor" />
+      <item itemvalue="Application.GenericsClassesProcessor" />
+      <item itemvalue="Application.LambdaProcessor" />
+      <item itemvalue="Application.PolymorphismProcessor" />
+      <item itemvalue="Smart Tomcat.MyTomcat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PolymorphismProcessor" />
+        <item itemvalue="Application.FinalClass" />
         <item itemvalue="Application.GenericsClassesProcessor" />
+        <item itemvalue="Application.PolymorphismProcessor" />
         <item itemvalue="Application.GenericWildCardsProcessor" />
         <item itemvalue="Application.LambdaProcessor" />
-        <item itemvalue="Application.BuilderExample2Processor" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708938545170</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="streams">
+      <option name="closed" value="true" />
+      <created>1718632601447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718632601447</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +316,8 @@
     <MESSAGE value="patterns" />
     <MESSAGE value="chainOfResp" />
     <MESSAGE value="builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder" />
+    <MESSAGE value="streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
